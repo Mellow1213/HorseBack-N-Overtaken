@@ -8,6 +8,8 @@ public class HorseController : MonoBehaviour
     public Material[] BoxMaterials; // 머티리얼 배열
 
     private int statement = 0;
+
+    public GameObject horse;
     
     void Start()
     {
@@ -42,7 +44,8 @@ public class HorseController : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
+        horse.GetComponent<Animator>().SetFloat("Vertical", 4f);
         transform.Translate(Vector3.forward*8f*Time.deltaTime);
         transform.position = new Vector3(transform.position.x,
             transform.position.y + Mathf.Sin(Time.realtimeSinceStartup*8f)*0.01f, transform.position.z);
@@ -55,5 +58,8 @@ public class HorseController : MonoBehaviour
                 transform.Rotate(Vector3.up * 45f * Time.deltaTime);
                 break;
         }
+
+        horse.transform.parent = transform;
+
     }
 }

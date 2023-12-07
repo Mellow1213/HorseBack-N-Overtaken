@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HorseController
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: abeb6455ff9ad0b448604f92f78b5d3e, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftBox
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightBox
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BoxMaterials.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BoxMaterials.Array.data[0]
+    value: 
+    objectReference: {fileID: 2100000, guid: 8f7aabc23755def4480f68db6d8d0e9a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: BoxMaterials.Array.data[1]
+    value: 
+    objectReference: {fileID: 2100000, guid: 70c867d3fb5146a4497e306c216d8124, type: 2}
+  - target: {fileID: 0}
+    propertyPath: horse
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
